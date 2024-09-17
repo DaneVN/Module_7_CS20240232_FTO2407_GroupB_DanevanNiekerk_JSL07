@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway', serif;
+    font-family: sans-serif;
   text-align: center;
   background-color: #f0f0f0;
   margin: 0;
@@ -42,7 +42,7 @@ button:hover {
 /* Certificate Modal */
 
 .modal {
-    max-width: 800px;
+    max-width: max-content;
     margin: 0 auto; /* Center horizontally */
     position: fixed;
     top: 50%; /* Center vertically */
@@ -81,7 +81,7 @@ button:hover {
 }
 
 #certificateContent {
-  font-family: 'Raleway', serif;
+  font-family: sans-serif;
   color: #333;
   padding: 20px;
   background-color: #f9f9f9;
@@ -113,3 +113,6 @@ button:hover {
   background-color: #5d5f5e;
 }
 
+img {
+  height: 100px;
+}
